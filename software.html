@@ -12,6 +12,7 @@
 	<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
 	<link rel="stylesheet" href="assets/css/main.css" />
 </head>
+
 <body class="is-preload">
 
 	<!-- Wrapper -->
@@ -21,46 +22,36 @@
 		<!-- Main -->
 		<div id="main">
 			<!-- Content -->
-				<div class="inner">
-					<h1 class="major">Hydroelastic tailoring of foils</h1>
-					<span class="image fit"><img src="images/collarsTriRevised.svg" alt="" /></span>
-					<section>
-						<h2>Scaling laws</h2>
-						<p>It is important for the engineer and scientist to understand how performance of the specimen
-							scales with length, time, mass, and temperature.
-							Non-dimensional parameters (sometimes called Pi terms) are a common medium for assessing the
-							performance of a system and making comparisons across scales.
-							Common examples of non-dimensional parameters are the Reynolds number, lift and drag
-							coefficients, and the Froude number.
-							The prototypical example of using non-dimensional parameters is in making comparisons
-							between several experimental models that are smaller (or bigger) than the real thing.
-						</p>
-						<p>
-							The Buckingham Pi Theorem is a powerful approach for understanding governing physics by deriving non-dimensional Pi terms.
-                        </p>
-						<ul class="actions">
-							<li><a href="http://dx.doi.org/10.1016/j.compstruct.2021.115148" class="button">Associated
-									publication</a></li>
-						</ul>
-					</section>
-                    <section>
-                        <h2>Approaching hydroelastic optimizations</h2>
-                        <p>
-                            One-dimensional models are good for gaining rapid insights into the hydroelasticity of slender structures.
-                            Composite beam and unsteady lifting line prove to be accurate enough to conduct design space exploration of sweep and fiber angle variables for reducing flow-induced vibrations.
-                            However, detailed models with all the 3D effects are necessary for accurate drag minimization.
-                            The best approach should use a mixture of both.
-                        </p>
-						<ul class="actions">
-							<li><a href="http://dx.doi.org/10.1016/j.compstruct.2022.116101" class="button">Associated publication: Low-order study</a></li>
-							<li><a href="http://dx.doi.org/" class="button">Associated publication: CFD and detailed FEM study</a></li>
-						</ul>
-                    </section>
-					<!-- <p>Coming soon...</p> -->
-				</div>
+			<div class="inner">
+				<h1 class="major">Software</h1>
+				<!-- <span class="image fit"><img src="images/collarsTriRevised.svg" alt="" /></span> -->
+				<section>
+					<h2>DCFoil.jl</h2>
+					<p>A 1D composite beam and unsteady lifting line program written in Julia for rapid low-fidelity
+						design optimization.
+					</p>
+					<ul class="actions">
+						<li><a href="" class="button">Source</a></li>
+						<li><a href="" class="button">Associated
+								publication</a></li>
+					</ul>
+				</section>
+				<!-- <section>
+					<h2>DCFoil.jl</h2>
+					<p>A 1D composite beam and unsteady lifting line program written in Julia for rapid low-fidelity
+						design optimization.
+					</p>
+					<ul class="actions">
+						<li><a href="" class="button">Source</a></li>
+						<li><a href="" class="button">Associated
+								publication</a></li>
+					</ul>
+				</section> -->
+			</div>
 		</div>
 
 		<!-- Sidebar -->
+		<!-- REPEATED -->
 		<div id="sidebar">
 			<div class="inner">
 
@@ -82,7 +73,6 @@
 							<span class="opener">Projects</span>
 							<ul>
 								<li><a href="subpage-ventilation.html">Ventilation of flexible bodies in waves</a></li>
-								<!-- <li><a href="subpage-ventilation.html">Ventilation of flexible bodies in waves</a></li> -->
 							</ul>
 						</li>
 					</ul>
@@ -103,8 +93,8 @@
 							</a>
 						</li>
 						<!-- <i class='fab fa-researchgate'></i> -->
-						<li class="icon brands fa-github"><a
-								href="https://www.github.com/gawng">github.com/gawng</a></li>
+						<li class="icon brands fa-github"><a href="https://www.github.com/gawng">github.com/gawng</a>
+						</li>
 						<li class="icon brands fa-linkedin-in"><a
 								href="https://www.linkedin.com/in/galen-ng-a44baa126/">linkedin-page</a></li>
 						<li class="icon solid fa-home">2600 Draper Drive<br />
