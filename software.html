@@ -25,27 +25,37 @@
 			<div class="inner">
 				<h1 class="major">Software</h1>
 				<!-- <span class="image fit"><img src="images/collarsTriRevised.svg" alt="" /></span> -->
+				This page is for some of the software tools I develop or actively use.
+				If you use a tool, please cite the work accordingly.
 				<section>
 					<h2>DCFoil.jl</h2>
 					<p>
-						A 1D composite beam and unsteady lifting line program for rapid low-fidelity analysis and design optimization of hydrofoil configurations.
-						<h3>Capabilities:</h3>
-						<li>Static hydroelastic analysis</li>
-						<li>Flutter analysis (differentiated p-k method)</li>
-						<li>Dry and wetted modal analysis</li>
-						<li>Frequency response functions/response amplitude operators</li>
+						A 1D composite beam and unsteady lifting line program for rapid low-fidelity analysis and design
+						optimization of hydrofoil configurations.
+						Written in Julia for ease of development and implementation of analytic derivatives through
+						algorithmic differentiation (AD).
+					<h3>Capabilities:</h3>
+					<li>Static hydroelastic analysis (adjoint derivatives)</li>
+					<li>Flutter analysis (algorithmically differentiated p-k method)</li>
+					<li>Dry and wetted modal analysis</li>
+					<li>Frequency response functions/response amplitude operators</li>
 					</p>
 					<ul class="actions">
 						<li><a href="" class="button">Link to source (not released yet)</a></li>
-						<!-- <li><a href="" class="button">Associated publication</a></li> -->
+						<li><a href="" class="button">Associated publication</a></li>
 					</ul>
 				</section>
 				<section>
 					<h2>MACH Framework</h2>
 					<p>
-						Open-source tool developed by the <a href=https://mdolab.engin.umich.edu/software> MDO Lab</a> at The University of Michigan.
-						This tool is for aero- and hydro-structural optimization of vehicles using RANS CFD and FEM.
-						Works for profile design optimization, too.
+						Open-source tool developed by the <a href=https://mdolab.engin.umich.edu/software> MDO Lab</a>
+						at The University of Michigan.
+						This tool is for aero- and hydro-structural optimization of vehicles and appendages.
+						It uses RANS CFD and FEM with a geometry parametrization engine to automate optimization as much
+						as possible.
+						Works for 2D profile design optimization, too.
+						Many modular codes comprise the framework, and you can be selective or use them all together
+						since it is modular.
 						<!-- <h3>Features:</h3>
 						<li>Analytic derivatives throughout the call stack</li>
 						<li>(Mostly) automated generation of structured multi-block and overset meshes</li>
